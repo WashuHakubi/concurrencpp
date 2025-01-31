@@ -116,7 +116,7 @@ target_link_libraries(concurrencpp PUBLIC "$<$<BOOL:${LIBRT}>:${LIBRT}>")
 include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
 
-set(concurrencpp_directory "concurrencpp-${PROJECT_VERSION}")
+set(concurrencpp_directory "concurrencpp")
 set(concurrencpp_include_directory "${CMAKE_INSTALL_INCLUDEDIR}/${concurrencpp_directory}")
 
 install(
